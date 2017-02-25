@@ -1,6 +1,4 @@
-#!/usr/bin/env zsh
-
-PATH="$(dirname "${(%):-%N}")/bin:$PATH"
+#!/bin/sh
 
 alias b=backlight
 alias bm='backlight 1'
