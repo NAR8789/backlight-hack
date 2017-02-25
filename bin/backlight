@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# cribbed from from https://bbs.archlinux.org/viewtopic.php?id=134972
+
 echo "$1" | sudo tee /sys/class/backlight/intel_backlight/brightness
